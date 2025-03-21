@@ -4,24 +4,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muasa Hedge Fund</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
+
+    <!-- Navigation Bar -->
     <header>
-        <h1>Muasa Hedge Fund</h1>
-        <p>Building a billion-dollar investment future</p>
+        <div class="logo">Muasa Hedge Fund</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#why">Why Choose Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section class="about">
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Building a Billion-Dollar Investment Future</h1>
+            <p>Expert trading and asset management to maximize your returns.</p>
+            <a href="#contact" class="cta-btn">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Stock Market Ticker -->
+    <div class="stock-ticker">
+        <marquee>🔹 AAPL: $150.32 🔹 TSLA: $780.50 🔹 BTC: $64,000 🔹 ETH: $3,500 🔹</marquee>
+    </div>
+
+    <!-- About Section -->
+    <section id="about">
         <h2>About Us</h2>
         <p>We specialize in trading and asset management, leveraging market trends to maximize returns.</p>
     </section>
 
-    <section class="cta">
-        <h2>Join Our Vision</h2>
-        <p>Be part of our growth. Contact us for investment opportunities.</p>
-        <button>Get Started</button>
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-container">
+            <div class="service-box">
+                <i class="fas fa-chart-line"></i>
+                <h3>Trading Strategies</h3>
+                <p>Advanced trading strategies for high-yield investments.</p>
+            </div>
+            <div class="service-box">
+                <i class="fas fa-coins"></i>
+                <h3>Portfolio Management</h3>
+                <p>Customized investment solutions tailored to your needs.</p>
+            </div>
+            <div class="service-box">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Risk Management</h3>
+                <p>Minimizing risks with our expert-driven methodologies.</p>
+            </div>
+        </div>
     </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why">
+        <h2>Why Choose Us</h2>
+        <p>Proven track record, cutting-edge strategies, and expert guidance.</p>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial">
+            <p>"Muasa Hedge Fund helped me double my investments in just six months!"</p>
+            <strong>- Investor A</strong>
+        </div>
+        <div class="testimonial">
+            <p>"Professional and trustworthy. Best decision I made!"</p>
+            <strong>- Investor B</strong>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Newsletter -->
+    <section id="newsletter">
+        <h2>Subscribe to Our Newsletter</h2>
+        <input type="email" placeholder="Enter your email" required>
+        <button>Subscribe</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Muasa Hedge Fund | All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
-
