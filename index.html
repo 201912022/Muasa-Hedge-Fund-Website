@@ -402,9 +402,12 @@
         }
         
         .member-image {
-            width: 100%;
-            height: 250px;
-            object-fit: cover;
+            width: 200px;         /* Fixed width */
+            height: 200px;        /* Fixed height */
+            object-fit: cover;    /* Prevents stretching */
+            border-radius: 50%;   /* Makes it circular */
+            display: block;       /* Ensures proper spacing */
+            margin: 0 auto 15px;  /* Centers the image */
         }
         
         .member-info {
@@ -1089,7 +1092,7 @@
                 </div>
                 
                 <div class="team-member">
-                    <img src="eunice-nthoki.png" alt="Eunice Nthoki">">
+                    <img src="eunice-nthoki.png" alt="Eunice Nthoki" class="member-image">
                     <div class="member-info">
                         <h3>Eunice Nthoki</h3>
                         <span class="member-position">Chief Investment Officer</span>
